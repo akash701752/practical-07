@@ -1,12 +1,12 @@
-// Task 1 Version 2  - To print Matrix in Reverse Order Using 10-A[i][j]
+// Task 2 Version 2  - To print Matrix in Reverse Order Using 10-A[i][j]
 #include<iostream>
 #define MAX 3 
 using namespace std ;
 int main()
 {
   int arr[MAX][MAX] , i , j ;
-  cout<<"Enter Matrix ";
-  for(i=0;i<MAX;j++)
+  cout<<"Enter Matrix "<<endl;
+  for(i=0;i<MAX;i++)
   {
     for(j=0;j<MAX;j++)
     {
@@ -14,20 +14,20 @@ int main()
     }
   }
   cout<<"Input Matrix is "<<endl;
-  for(i=0;i<MAX;j++)
+  for(i=0;i<MAX;i++)
   {
     for(j=0;j<MAX;j++)
     {
-      cout<<arr[i][j] ;
+      cout<<arr[i][j] << " " ;
     }
     cout<<endl ;
   }
   cout<<"Output Matrix is "<<endl;
-  for(i=0;i<MAX;j++)
+  for(i=0;i<MAX;i++)
   {
     for(j=0;j<MAX;j++)
     {
-      cout<<10-arr[i][j] ;
+      cout<<10-arr[i][j] << " " ;
     }
     cout<<endl ;
   }
