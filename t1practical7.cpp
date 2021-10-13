@@ -6,6 +6,7 @@ int main()
   cout<<"1. For Crrent Year "<<endl ;
   cout<<"2. For Crrent Month "<<endl ;
   cout<<"3. For Crrent Date "<<endl ;
+  cout<<"4. For Crrent Day "<<endl ;
   cout<<"Enter Your Choice : ";
   cin>>ch ;
   switch(ch)
@@ -16,7 +17,13 @@ int main()
       break ;
     case 3 : cout<<"Current Date is : 13" <<endl;
       break ;
-    default : cout<<"!!! Invalid Choice !!!"<<endl ;#include<iostream>
+    case   : cout<<"Current Day is : Wedesday " <<endl;
+      break ;
+    default : cout<<"!!! Invalid Choice !!!"<<endl ;
+      break ;
+  }
+  return 0 ;
+}#include<iostream>
 using namespace std ;
 int main()
 {
@@ -24,6 +31,7 @@ int main()
   cout<<"1. For Crrent Year "<<endl ;
   cout<<"2. For Crrent Month "<<endl ;
   cout<<"3. For Crrent Date "<<endl ;
+  cout<<"4. For Crrent Day "<<endl ;
   cout<<"Enter Your Choice : ";
   cin>>ch ;
   switch(ch)
@@ -34,11 +42,9 @@ int main()
       break ;
     case 3 : cout<<"Current Date is : 13" <<endl;
       break ;
-    default : cout<<"!!! Invalid Choice !!!"<<endl ;
+    case   : cout<<"Current Day is : Wedesday " <<endl;
       break ;
-  }
-  return 0 ;
-}
+    default : cout<<"!!! Invalid Choice !!!"<<endl ;
       break ;
   }
   return 0 ;
