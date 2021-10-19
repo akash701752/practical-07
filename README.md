@@ -77,5 +77,5 @@ I/P
 O/P
 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
 
-Total Tasks = Task1+Task2+Task3+Task4+Task5+Task6+Task17 = 2 + 3 + 3 + 1 + 1 + 1 + 1 = 12 
+Total Tasks = Task1+Task2+Task3+Task4+Task5+Task6+Task7+Task8 = 2 + 3 + 3 + 1 + 1 + 1 + 1 + 1 = 13 
 
